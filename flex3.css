@@ -1,0 +1,88 @@
+* {
+    border: 2px solid red;
+    margin: 5px;
+
+}
+
+html{
+    width: 50%;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+    width: 100%;
+}
+
+.main {
+    border: 2px solid yellow;
+    height: 50vh;
+    width: 98%;
+    position: relative;
+    display: flex;
+}
+
+.left , .right{
+    width: 20%;
+    height: 48vh;
+}
+
+.middle{
+    width: 80%;
+    height: 48vh;
+    border: 2px solid green;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid1 , .mid3{
+    height: 8vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid1-a{
+
+    height: 2vh;
+    width: 50%;
+}
+
+.mid2{
+    height: 30vh;
+    position: relative;
+    display: flex;
+
+}
+
+.mid2-a{
+ 
+    height: 28vh;
+    width: 30%;
+}
+
+.mid2-b{
+    width: 70%;
+    height: 28vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.mid2-b > div{
+    height: 10vh;
+    width: 96%;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.a{
+    height: 20px;
+    width: 20px;
+
+}
